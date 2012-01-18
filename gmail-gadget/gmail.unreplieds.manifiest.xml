@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ApplicationManifest xmlns="http://schemas.google.com/ApplicationManifest/2009">
+
+    <!-- Support info to show in Google APP Marketplace and Gadget Control panel -->
+    <Support>
+        <Link rel="support" href="http://codeadict.org/blog/gmail-unreplies-gadget/" />
+        <Link rel="deletion-policy" href="http://codeadict.org/blog/gmail-unreplies-gadget/" />
+    </Support>
+
+    <!-- Descriptions -->
+    <Name>Gmail Unreplieds</Name>
+    <Description>Shows Unreplied messages filters on Gmail sidebar</Description>
+
+    <!-- Gadget -->
+    <Extension id="GmailUnreplieds" type="gadget">
+        <Name>Gmail Unreplieds</Name>
+        <Url>https://github.com/codeadict/Gmail-Unreplieds/raw/build/gmail-gadget/gadget.xml</Url>
+        <Container name="mail" />
+        <!--*** <Param name="caja" value="enabled"/> -->
+    </Extension>
+
+
+
+</ApplicationManifest>
+
+
