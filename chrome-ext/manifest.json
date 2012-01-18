@@ -1,0 +1,15 @@
+{
+    "name": "Gmail\u2122 Unreplieds" ,
+    "version": "0.1.0",
+    "description": "Shows unreplied e-mails on gmail sidebar.",
+    "icons": {
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+    "content_scripts": [ {
+        "matches" : [ "https://mail.google.com/mail/u/*/?ui=2&view=bsp*", "https://mail.google.com/mail/?ui=2&view=bsp*" ],
+        "js" : ["jscripts.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    } ]
+}
